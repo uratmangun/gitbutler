@@ -22,8 +22,8 @@ serde.workspace = true
 tokio = { workspace = true, features = ["rt-multi-thread", "io-std"] }
 tokio-util = "0.7.16"
 strum = { version = "0.27", features = ["derive"] }
-clap = { version = "4.5.46", features = ["derive", "env"] }
-chrono = { version = "0.4.41" }
+clap = { version = "4.5.48", features = ["derive", "env"] }
+chrono = { version = "0.4.42" }
 bstr.workspace = true
 anyhow.workspace = true
 # rmcp = { git = "https://github.com/modelcontextprotocol/rust-sdk", branch = "main" }
@@ -52,7 +52,7 @@ gitbutler-branch.workspace = true
 gitbutler-secret.workspace = true
 gitbutler-oxidize.workspace = true
 colored = "3.0.0"
-serde_json = "1.0.143"
+serde_json = "1.0.145"
 tracing.workspace = true
 tracing-subscriber = { version = "0.3", features = [
     "env-filter",

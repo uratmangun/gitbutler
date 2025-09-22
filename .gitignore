@@ -64,3 +64,12 @@ storybook-static
 # Claude
 .swarm
 .claude-flow
+
+# Local runtime/bundle helpers
+gitbutler
+
+# Explicit bundle outputs (already under /target, listed for clarity)
+target/release/bundle/
+
+# Explicit SvelteKit build output (already covered by `build`)
+apps/desktop/build/
